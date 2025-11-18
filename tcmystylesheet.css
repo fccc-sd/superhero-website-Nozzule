@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+    color:aliceblue;
+}
+
+h1
+{
+    padding: 10px;
+    margin: 0px 50px 50px 0px;
+}
+
+#container
+{
+    width: 480px;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+}
+
+header
+{
+    height: 50px;
+    width: 440px;
+    padding: 20px;
+    background-color: darkslategray;
+    margin-bottom: 10px;
+}
+
+nav
+{
+    width: 460px;
+    background-color: darkslategray;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+nav li
+{
+    display:inline;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav a:link
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+nav a:visited
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+aside
+{
+    width: 190px;
+    height: 240px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    background-color: darkslategray;
+    float: left;
+}
+
+section
+{
+    width: 240px;
+    height: 240px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: darkslategray;
+    float: right;
+}
+
+footer
+{
+    background-color: darkslategray;
+    padding: 10px;
+    clear: both;
+}

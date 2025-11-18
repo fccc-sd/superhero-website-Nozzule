@@ -1,0 +1,64 @@
+h1 
+{
+    border-style: outset;
+    padding: 10px;
+    margin: 20px 50px 20px;
+}
+
+h3
+{
+    clear: left;
+    margin: 20px 25px 20px;
+}
+
+body
+{
+    background-color:darkslategray;
+    color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+nav
+{
+    background-color:darkblue;
+    line-height: 2em;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav a:link
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:visited
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: darkcyan;
+}
+
+img
+{
+    float: left;
+    margin: 20px;
+}
