@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+    color:aliceblue;
+    margin: auto;
+}
+
+h1
+{
+    padding: 10px;
+    margin: 0px 50px 50px 0px;
+}
+
+#container
+{
+    width: 90%;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+}
+
+header
+{
+    height: 50px;
+    width: 100%;
+    padding: 20px 2.08;
+    background-color: darkslategray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+nav
+{
+    width: 93.92%;
+    background-color: darkslategray;
+    padding: 10px 1.04%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; 
+}
+
+nav li
+{
+    display:inline;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav a:link
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+nav a:visited
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+aside img {
+    width: 100%;
+    max-width: 211px;
+    min-width: 175px;
+}
+
+aside
+{
+    width: 21.68%;
+    height: 240px;
+    margin-bottom:10px;
+    margin-left: 2.08%;
+    margin-right: 1.04%;
+    padding: 1.04%;
+    background-color: darkslategray;
+    float: left;
+}
+
+section
+{
+    width: 67.92%;
+    height: 240px;
+    margin: 0 0 10px 0;
+    padding: 1.04%;
+    margin-right: 2.08%;
+    margin-left: 1.04%;
+    background-color: darkslategray;
+    float: right;
+}
+
+footer
+{
+    width: 93.76%;
+    background-color: darkslategray;
+    padding: 1.04%;
+    margin-left: 2.08%;
+    margin-right: 2.08%;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    aside, section{
+        float: none;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    aside {
+        margin: auto;
+        min-width: 250px;
+        margin-bottom: 1rem;
+    }
+}
