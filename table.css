@@ -1,0 +1,22 @@
+body
+{
+ background-color: black;
+    color: aliceblue;
+}
+
+table
+{
+    border: solid 2px darkolivegreen;
+    border-collapse: collapse;
+    height: 600px;
+    background-color: darkslategray;
+    vertical-align: center;
+}
+
+tr, td, th
+{
+    border: solid 2px darkolivegreen;
+    width: 175px;
+    text-align: center;
+
+}
